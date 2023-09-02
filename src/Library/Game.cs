@@ -52,7 +52,6 @@ namespace PII_Game_Of_Life
                         }
                     }
                     
-
                     if(gameBoard.GetCell(x, y))
                     {
                         aliveNeighbors--;
