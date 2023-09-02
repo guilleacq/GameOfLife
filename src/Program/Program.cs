@@ -4,9 +4,12 @@ namespace PII_Game_Of_Life
 {
     class Program
     {
+        private static string boardPath = "../../assets/board.txt";
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game game = new Game(boardPath);
+            game.StartGame();
         }
     }
 }
