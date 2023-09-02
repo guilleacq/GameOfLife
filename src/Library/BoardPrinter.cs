@@ -6,15 +6,9 @@ namespace PII_Game_Of_Life
 {
     public class BoardPrinter
     {
-        Board board;
-        public BoardPrinter(Board board)
+        public static void PrintGame(Board board)
         {
-            this.board = board;
-        }
-
-        public void PrintGame()
-        {
-                Console.Clear();
+                //Console.Clear();
                 StringBuilder s = new StringBuilder();
                 for (int y = 0; y < board.Height;y++)
                 {
